@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "882076314144",
+    "project_id": "composefirebasegrades",
+    "storage_bucket": "composefirebasegrades.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882076314144:android:5e9459bbb548394fb16a45",
+        "android_client_info": {
+          "package_name": "com.example.composefirebasegrades"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgH5SwKfRyAOra4OfZy_msgZK1JGI6EQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
