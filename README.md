@@ -41,9 +41,11 @@ La comunicación entre el emulador Android y el servidor se logra mediante la di
  Objetivo académico
 El proyecto fue realizado como actividad investigativa universitaria para demostrar el uso práctico de **API REST** y **Firebase** dentro de una aplicación Android nativa, aplicando conceptos de **desarrollo móvil**, **arquitectura de software** y **comunicación cliente-servidor**.
 
----
-'@
+Este proyecto demuestra que una app Android moderna puede comunicarse tanto con servicios en la nube (Firebase) como con una API local (Node.js).
+Logré integrar ambas tecnologías en un mismo entorno funcional, aplicando todo lo aprendido sobre:
+Conexión cliente-servidor
+Gestión de dependencias
+Uso de corutinas y navegación
+Configuración de seguridad de red
+Publicación del código en GitHub
 
-git add README.md
-git commit -m "docs: agregar descripción detallada del proyecto debajo del video"
-git push
