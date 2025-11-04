@@ -1,3 +1,7 @@
+videos donde esplicamos los pasos de la aplicacion de
+Compose + Firestore (Grades) Y Compose+Api(Node/Express)
+mas dos imagenes 
+
 https://youtube.com/shorts/UyxHOQqADsY?si=iY0Ib42A6xOVx2aG
 https://youtube.com/shorts/uzdoG8vKLxk?si=3pk5juDx44tKf-yo
 https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
@@ -7,9 +11,7 @@ https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
 
 
 Add-Content -Path README.md -Value @'
-
----
-📘 Proyecto Compose + Firestore (Grades) Y Compose+Api(Node/Express)
+Compose + Firestore (Grades) Y Compose+Api(Node/Express)
 
 **ComposeFirebaseGrades** es una aplicación desarrollada en **Jetpack Compose (Kotlin)** que integra dos funcionalidades principales:  
 1️⃣ **Firebase Firestore** para registrar estudiantes con sus calificaciones, y  
@@ -22,14 +24,14 @@ La aplicación cuenta con una interfaz moderna y simple construida con **Materia
 En el backend, la API está creada con **Express.js**, escucha en el puerto **3001** y permite recibir, registrar y consultar usuarios en formato JSON.  
 La comunicación entre el emulador Android y el servidor se logra mediante la dirección **10.0.2.2**, que representa **localhost** dentro del entorno del emulador.
 
-### 🧩 Tecnologías utilizadas
+   Tecnologías utilizadas
 - **Frontend móvil:** Jetpack Compose (Kotlin)  
 - **Backend:** Node.js + Express  
 - **Base de datos:** Firebase Firestore  
 - **Gestión de dependencias:** Gradle (KTS)  
 - **Control de versiones:** Git + GitHub  
 
-### 🎯 Objetivo académico
+ Objetivo académico
 El proyecto fue realizado como actividad investigativa universitaria para demostrar el uso práctico de **API REST** y **Firebase** dentro de una aplicación Android nativa, aplicando conceptos de **desarrollo móvil**, **arquitectura de software** y **comunicación cliente-servidor**.
 
 ---
