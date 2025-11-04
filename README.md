@@ -43,9 +43,15 @@ El proyecto fue realizado como actividad investigativa universitaria para demost
 
 Este proyecto demuestra que una app Android moderna puede comunicarse tanto con servicios en la nube (Firebase) como con una API local (Node.js).
 Logré integrar ambas tecnologías en un mismo entorno funcional, aplicando todo lo aprendido sobre:
-Conexión cliente-servidor
-Gestión de dependencias
-Uso de corutinas y navegación
-Configuración de seguridad de red
-Publicación del código en GitHub
+Conexión cliente-servidor, Gestión de dependencias, Uso de corutinas y navegación, Configuración de seguridad de red y Publicación del código en GitHub
+
+Además, se configuró un archivo especial llamado network_security_config.xml junto con permisos en el AndroidManifest.xml para permitir que la app pueda comunicarse sin problema con el servidor local (tráfico sin HTTPS, solo HTTP).
+Esto es importante porque sin esa configuración el emulador no puede enviar datos a la API.
+
+En el diseño, usé Material Design 3, lo que le da un estilo moderno y ordenado a la interfaz.
+El sistema se divide en dos pantallas principales, que se navegan desde una barra inferior (Bottom Navigation):
+
+Firebase, donde se prueban las operaciones con Firestore.
+API, donde se prueba el envío y recepción de datos hacia Node.js.
+Para los procesos que demoran (como guardar datos o enviar peticiones), se usaron corutinas de Kotlin para que las tareas se ejecuten en segundo plano sin congelar la interfaz.
 
