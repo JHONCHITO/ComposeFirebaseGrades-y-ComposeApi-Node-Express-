@@ -20,5 +20,22 @@ IMAGEN BASE DE DATOS FIREBASE
 
 <img width="801" height="950" alt="image" src="https://github.com/user-attachments/assets/ccab8c6c-62a4-469c-a966-54ee42d54326" />
 
+⚙️ Tecnologías usadas
+🔹 Grades (Firebase)
+
+Jetpack Compose (Kotlin) → para construir la interfaz moderna y dinámica de la aplicación Android.
+
+Firebase Firestore → base de datos en la nube usada para guardar los nombres, correos y calificaciones de los estudiantes en tiempo real.
+
+Firebase SDK → biblioteca que permite la conexión directa entre la app y el servicio Firestore.
+
+Material Design 3 → para el diseño visual de los componentes (botones, campos de texto, tipografía).
+
+Gradle (KTS) → sistema de construcción y manejo de dependencias del proyecto.
+
+google-services.json → archivo de configuración que conecta la app con el proyecto Firebase.
+
+👉 En esta parte se trabajó toda la lógica de almacenamiento en la nube y sincronización en tiempo real
+
 
 
