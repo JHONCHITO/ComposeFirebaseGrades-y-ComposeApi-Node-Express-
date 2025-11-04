@@ -3,7 +3,9 @@ Compose + Firestore (Grades) Y Compose+Api(Node/Express)
 mas dos imagenes 
 
 video 1. https://youtube.com/shorts/UyxHOQqADsY?si=iY0Ib42A6xOVx2aG
+
 video 2. https://youtube.com/shorts/uzdoG8vKLxk?si=3pk5juDx44tKf-yo
+
 video 3. https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
 
 <img width="90" height="160" alt="image" src="https://github.com/user-attachments/assets/b3bc5cbe-4e3b-40a5-b9e1-af9f7392ca8a" />
