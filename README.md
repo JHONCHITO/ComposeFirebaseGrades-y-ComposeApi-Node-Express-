@@ -12,18 +12,11 @@ Esta parte demuestra cómo Jetpack Compose puede conectarse a servicios en la nu
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/15a3880a-07f1-4b3c-9dab-f476ff5134a9" />
 
 
-Proyecto Compose + Firestore (Grades) + API (Node/Express)
-Esta representa el uso de una API externa hecha con Node.js y Express, donde el usuario puede enviar nombre y correo electrónico desde la aplicación.
-Cuando se presiona el botón “Submit”, la app crea una petición HTTP POST que se envía al servidor local, generalmente en la dirección http://10.0.2.2:3001/api/users (que sirve para comunicar el emulador con el backend que corre en el computador).
+🔹 API (Node/Express)
 
-Si la conexión es correcta, el servidor responde confirmando que el usuario fue creado y la aplicación muestra el mensaje “Usuario creado en API ✅”.
-Si hay errores (por ejemplo, el servidor no está corriendo o hay problemas de red), se muestra un aviso indicando qué ocurrió.
-
-Esta app sirve para probar la comunicación cliente-servidor, demostrando que desde una app móvil también se pueden enviar datos a un backend local o en la nube usando peticiones REST.
-En conjunto con la primera pestaña (Firebase), permite comparar dos formas diferentes de manejar datos: una en la nube (Firestore) y otra por API (Node/Express)
-
-En el backend, la API está creada con Express.js, escucha en el puerto 3001 y permite recibir, registrar y consultar usuarios en formato JSON.  
-La comunicación entre el emulador Android y el servidor se logra mediante la dirección 10.0.2.2, que representa localhost Dentro del entorno del emulador
+Demuestra la conexión con un servidor local hecho en Node.js y Express, al que la app envía nombre y correo mediante una petición HTTP POST.
+Si el servidor responde correctamente, se muestra el mensaje “Usuario creado en API ✅”.
+Esta parte permite probar la comunicación cliente-servidor usando la dirección http://10.0.2.2:3001/api/users, que enlaza el emulador con el backend del computador.
 
 
 - <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/34d0cbde-5d88-49ab-b454-3746b1e9051e" />
