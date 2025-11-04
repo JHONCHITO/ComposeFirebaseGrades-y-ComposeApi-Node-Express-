@@ -1,54 +1,48 @@
 
----
+Proyecto Compose + Firestore (Grades)
 
-## ?? Proyecto Compose + Firestore (Grades)
+ComposeFirebaseGrades es una aplicaci√≥n desarrollada en Jetpack Compose (Kotlin) que integra dos funcionalidades principales:  
+Firebase Firestore para registrar estudiantes con sus calificaciones, y  
+API Node.js + Express** para enviar y almacenar datos de usuarios desde la app m√≥vil a un servidor local.
 
-**ComposeFirebaseGrades** es una aplicaciÛn desarrollada en **Jetpack Compose (Kotlin)** que integra dos funcionalidades principales:  
-1?? **Firebase Firestore** para registrar estudiantes con sus calificaciones, y  
-2?? **API Node.js + Express** para enviar y almacenar datos de usuarios desde la app mÛvil a un servidor local.
-
-La aplicaciÛn cuenta con una interfaz moderna y simple construida con **Material Design 3**, donde el usuario puede:
+La aplicaci√≥n cuenta con una interfaz moderna y simple construida con **Material Design 3**, donde el usuario puede:
 - Ingresar **nombre**, **correo** y **nota** para guardarlos directamente en **Firebase**.  
-- Cambiar a la pestaÒa **API**, ingresar **nombre** y **correo**, y enviar los datos mediante una **peticiÛn HTTP POST** al servidor Node.js.
+- Cambiar a la pesta√±a **API**, ingresar **nombre** y **correo**, y enviar los datos mediante una **petici√≥n HTTP POST** al servidor Node.js.
 
-En el backend, la API est· creada con **Express.js**, escucha en el puerto **3001** y permite recibir, registrar y consultar usuarios en formato JSON.  
-La comunicaciÛn entre el emulador Android y el servidor se logra mediante la direcciÛn **10.0.2.2**, que representa **localhost** dentro del entorno del emulador.
-
-### ?? TecnologÌas utilizadas
-- **Frontend mÛvil:** Jetpack Compose (Kotlin)  
+En el backend, la API est√° creada con **Express.js**, escucha en el puerto **3001** y permite recibir, registrar y consultar usuarios en formato JSON.  
+La comunicaci√≥n entre el emulador Android y el servidor se logra mediante la direcci√≥n **10.0.2.2**, que representa **localhost** dentro del entorno del emulador.
+ Tecnolog√≠as utilizadas
+- **Frontend m√≥vil:** Jetpack Compose (Kotlin)  
 - **Backend:** Node.js + Express  
 - **Base de datos:** Firebase Firestore  
-- **GestiÛn de dependencias:** Gradle (KTS)  
+- **Gesti√≥n de dependencias:** Gradle (KTS)  
 - **Control de versiones:** Git + GitHub  
 
-### ?? Objetivo acadÈmico
-El proyecto fue realizado como actividad investigativa universitaria para demostrar el uso pr·ctico de **API REST** y **Firebase** dentro de una aplicaciÛn Android nativa, aplicando conceptos de **desarrollo mÛvil**, **arquitectura de software** y **comunicaciÛn cliente-servidor**.
+Objetivo acad√©mico
+El proyecto fue realizado como actividad investigativa universitaria para demostrar el uso pr√°ctico de **API REST** y **Firebase** dentro de una aplicaci√≥n Android nativa, aplicando conceptos de **desarrollo m√≥vil**, **arquitectura de software** y **comunicaci√≥n cliente-servidor**.
 
----
 
----
+ Proyecto Compose + Firestore (Grades) + API (Node/Express)
 
-## ?? Proyecto Compose + Firestore (Grades) + API (Node/Express)
-
-**ComposeFirebaseGrades** es una aplicaciÛn desarrollada en **Jetpack Compose (Kotlin)** que integra dos funcionalidades principales:  
+**ComposeFirebaseGrades** es una aplicaci√≥n desarrollada en **Jetpack Compose (Kotlin)** que integra dos funcionalidades principales:  
 1?? **Firebase Firestore** para registrar estudiantes con sus calificaciones, y  
-2?? **API Node.js + Express** para enviar y almacenar datos de usuarios desde la app mÛvil a un servidor local.
+2?? **API Node.js + Express** para enviar y almacenar datos de usuarios desde la app m√≥vil a un servidor local.
 
-La aplicaciÛn cuenta con una interfaz moderna y simple construida con **Material Design 3**, donde el usuario puede:
+La aplicaci√≥n cuenta con una interfaz moderna y simple construida con **Material Design 3**, donde el usuario puede:
 - Ingresar **nombre**, **correo** y **nota** para guardarlos directamente en **Firebase**.  
-- Cambiar a la pestaÒa **API**, ingresar **nombre** y **correo**, y enviar los datos mediante una **peticiÛn HTTP POST** al servidor **Node.js + Express**.
+- Cambiar a la pesta√±a **API**, ingresar **nombre** y **correo**, y enviar los datos mediante una **petici√≥n HTTP POST** al servidor **Node.js + Express**.
 
-En el backend, la API est· creada con **Express.js**, escucha en el puerto **3001** y permite recibir, registrar y consultar usuarios en formato JSON.  
-La comunicaciÛn entre el emulador Android y el servidor se logra mediante la direcciÛn **10.0.2.2**, que representa **localhost** dentro del entorno del emulador.
+En el backend, la API est√° creada con **Express.js**, escucha en el puerto **3001** y permite recibir, registrar y consultar usuarios en formato JSON.  
+La comunicaci√≥n entre el emulador Android y el servidor se logra mediante la direcci√≥n **10.0.2.2**, que representa **localhost** dentro del entorno del emulador.
 
-### ?? TecnologÌas utilizadas
-- **Frontend mÛvil:** Jetpack Compose (Kotlin)  
+Tecnolog√≠as utilizadas
+- **Frontend m√≥vil:** Jetpack Compose (Kotlin)  
 - **Backend:** Node.js + Express  
 - **Base de datos:** Firebase Firestore  
-- **GestiÛn de dependencias:** Gradle (KTS)  
+- **Gesti√≥n de dependencias:** Gradle (KTS)  
 - **Control de versiones:** Git + GitHub  
 
-### ?? Objetivo acadÈmico
-El proyecto fue realizado como actividad investigativa universitaria para demostrar el uso pr·ctico de **API REST** y **Firebase** dentro de una aplicaciÛn **Android nativa**, aplicando conceptos de **desarrollo mÛvil**, **arquitectura de software** y **comunicaciÛn cliente-servidor**.
+ Objetivo acad√©mico
+El proyecto fue realizado como actividad investigativa universitaria para demostrar el uso pr√°ctico de **API REST** y **Firebase** dentro de una aplicaci√≥n **Android nativa**, aplicando conceptos de **desarrollo m√≥vil**, **arquitectura de software** y **comunicaci√≥n cliente-servidor**.
 
 ---
