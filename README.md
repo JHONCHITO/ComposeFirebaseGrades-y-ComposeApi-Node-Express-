@@ -1,3 +1,6 @@
+este es el proyecto final donde encontramos las dos en una sola completa 
+ComposeFirebaseGrades-y-ComposeApi-Node-Express-
+
 videos donde esplicamos los pasos de la aplicacion de
 Compose + Firestore (Grades) Y Compose+Api(Node/Express)
 mas dos imagenes 
