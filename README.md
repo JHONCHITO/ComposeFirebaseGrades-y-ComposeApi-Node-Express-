@@ -13,6 +13,8 @@ La aplicación cuenta con una interfaz moderna y simple construida con Material 
 En el backend, la API está creada con Express.js, escucha en el puerto 3001 y permite recibir, registrar y consultar usuarios en formato JSON.  
 La comunicación entre el emulador Android y el servidor se logra mediante la dirección 10.0.2.2, que representa localhost dentro del entorno del emulador.
 
+- <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/34d0cbde-5d88-49ab-b454-3746b1e9051e" />
+
 🧩 Tecnologías utilizadas
 - **Frontend móvil:** Jetpack Compose (Kotlin)  
 - **Backend:** Node.js + Express  
