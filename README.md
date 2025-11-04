@@ -9,8 +9,7 @@ https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
 Add-Content -Path README.md -Value @'
 
 ---
-
-## 📘 Proyecto Compose + Firestore (Grades)
+📘 Proyecto Compose + Firestore (Grades) Y Compose+Api(Node/Express)
 
 **ComposeFirebaseGrades** es una aplicación desarrollada en **Jetpack Compose (Kotlin)** que integra dos funcionalidades principales:  
 1️⃣ **Firebase Firestore** para registrar estudiantes con sus calificaciones, y  
