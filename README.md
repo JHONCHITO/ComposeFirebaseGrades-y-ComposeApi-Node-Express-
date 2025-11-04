@@ -9,7 +9,7 @@ Por eso, apenas se guarda un estudiante, aparece de inmediato en el listado con 
 Esta parte demuestra cómo Jetpack Compose puede conectarse a servicios en la nube como Firebase, usando un diseño moderno y limpio. Además, permite probar la sincronización directa entre la app móvil y la base de datos, algo muy común en aplicaciones reales que manejan información dinámica.
 
 
-<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/15a3880a-07f1-4b3c-9dab-f476ff5134a9" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/15a3880a-07f1-4b3c-9dab-f476ff5134a9" />
 
 
 Proyecto Compose + Firestore (Grades) + API (Node/Express)
@@ -20,18 +20,17 @@ Si la conexión es correcta, el servidor responde confirmando que el usuario fue
 Si hay errores (por ejemplo, el servidor no está corriendo o hay problemas de red), se muestra un aviso indicando qué ocurrió.
 
 Esta app sirve para probar la comunicación cliente-servidor, demostrando que desde una app móvil también se pueden enviar datos a un backend local o en la nube usando peticiones REST.
-En conjunto con la primera pestaña (Firebase), permite comparar dos formas diferentes de manejar datos: una en la nube (Firestore) y otra por API (Node/Express).
+En conjunto con la primera pestaña (Firebase), permite comparar dos formas diferentes de manejar datos: una en la nube (Firestore) y otra por API (Node/Express)
+
+En el backend, la API está creada con Express.js, escucha en el puerto 3001 y permite recibir, registrar y consultar usuarios en formato JSON.  
+La comunicación entre el emulador Android y el servidor se logra mediante la dirección 10.0.2.2, que representa localhost Dentro del entorno del emulador
 
 
-- <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/34d0cbde-5d88-49ab-b454-3746b1e9051e" />
+- <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/34d0cbde-5d88-49ab-b454-3746b1e9051e" />
 
 IMAGEN BASE DE DATOS FIREBASE
 
 <img width="801" height="950" alt="image" src="https://github.com/user-attachments/assets/ccab8c6c-62a4-469c-a966-54ee42d54326" />
-
-
-En el backend, la API está creada con Express.js, escucha en el puerto 3001 y permite recibir, registrar y consultar usuarios en formato JSON.  
-La comunicación entre el emulador Android y el servidor se logra mediante la dirección 10.0.2.2, que representa localhost Dentro del entorno del emulador
 
 
 videos donde esplicamos los pasos de la aplicacion de Compose + Firestore (Grades) Y Compose+Api(Node/Express) 
