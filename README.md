@@ -20,8 +20,3 @@ IMAGEN BASE DE DATOS FIREBASE
 videos donde esplicamos los pasos de la aplicacion de Compose + Firestore (Grades) Y Compose+Api(Node/Express) 
 
 video 1. https://youtube.com/shorts/UyxHOQqADsY?si=iY0Ib42A6xOVx2aG
-
-video 3. https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
-
-
-js. Para los procesos que demoran (como guardar datos o enviar peticiones), se usaron corutinas de Kotlin para que las tareas se ejecuten en segundo plano sin congelar la interfaz.
