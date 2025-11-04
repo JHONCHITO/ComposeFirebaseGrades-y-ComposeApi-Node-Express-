@@ -13,8 +13,8 @@ video 3. https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
 
 
 imagen de la base de datos en Firebase
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/6aaab4b7-e3bf-484d-814c-7f2c017410d1" />
 
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/6aaab4b7-e3bf-484d-814c-7f2c017410d1" />
 
 
 Add-Content -Path README.md -Value @'
