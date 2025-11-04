@@ -9,7 +9,7 @@ Por eso, apenas se guarda un estudiante, aparece de inmediato en el listado con 
 Esta parte demuestra cómo Jetpack Compose puede conectarse a servicios en la nube como Firebase, usando un diseño moderno y limpio. Además, permite probar la sincronización directa entre la app móvil y la base de datos, algo muy común en aplicaciones reales que manejan información dinámica.
 
 
-<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/15a3880a-07f1-4b3c-9dab-f476ff5134a9" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/15a3880a-07f1-4b3c-9dab-f476ff5134a9" />
 
 
 Proyecto Compose + Firestore (Grades) + API (Node/Express)
@@ -26,7 +26,7 @@ En el backend, la API está creada con Express.js, escucha en el puerto 3001 y p
 La comunicación entre el emulador Android y el servidor se logra mediante la dirección 10.0.2.2, que representa localhost Dentro del entorno del emulador
 
 
-- <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/34d0cbde-5d88-49ab-b454-3746b1e9051e" />
+- <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/34d0cbde-5d88-49ab-b454-3746b1e9051e" />
 
 IMAGEN BASE DE DATOS FIREBASE
 
@@ -41,18 +41,6 @@ video 2. https://youtube.com/shorts/uzdoG8vKLxk?si=3pk5juDx44tKf-yo
 
 video 3. https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
 
-
-
-ComposeFirebaseGrades es una aplicación desarrollada en Jetpack Compose (Kotlin) que integra dos funcionalidades principales:
-1️⃣ Firebase Firestore para registrar estudiantes con sus calificaciones, y
-2️⃣ API Node.js + Express para enviar y almacenar datos de usuarios desde la app móvil a un servidor local.
-
-La aplicación cuenta con una interfaz moderna y simple construida con Material Design 3, donde el usuario puede:
-
-Ingresar nombre, correo y nota para guardarlos directamente en Firebase.
-Cambiar a la pestaña API, ingresar nombre y correo, y enviar los datos mediante una petición HTTP POST al servidor Node.js.
-En el backend, la API está creada con Express.js, escucha en el puerto 3001 y permite recibir, registrar y consultar usuarios en formato JSON.
-La comunicación entre el emulador Android y el servidor se logra mediante la dirección 10.0.2.2, que representa localhost dentro del entorno del emulador.
 
 Tecnologías utilizadas
 
