@@ -11,7 +11,9 @@ video 3. https://youtube.com/shorts/ObvOHzF4jqY?si=VXBPCRoYMq20bLdm
 <img width="90" height="160" alt="image" src="https://github.com/user-attachments/assets/b3bc5cbe-4e3b-40a5-b9e1-af9f7392ca8a" />
 <img width="90" height="160" alt="image" src="https://github.com/user-attachments/assets/7e6bec91-a907-42fc-bf17-fb5c0d3aa15d" />
 
-<img width="180" height="200" alt="image" src="https://github.com/user-attachments/assets/6aaab4b7-e3bf-484d-814c-7f2c017410d1" />
+
+imagen de la base de datos en Firebase
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/6aaab4b7-e3bf-484d-814c-7f2c017410d1" />
 
 
 
