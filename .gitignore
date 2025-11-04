@@ -1,0 +1,19 @@
+﻿# Android / Gradle
+.gradle/
+**/build/
+*/build/
+local.properties
+*.iml
+/.idea/*
+!.idea/codeStyles
+!.idea/inspectionProfiles
+captures/
+.externalNativeBuild/
+
+# Compose previews
+*.apk
+*.aab
+
+# OS
+.DS_Store
+Thumbs.db

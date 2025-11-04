@@ -1,0 +1,12 @@
+<resources>
+    <!-- Tema principal basado en MDC Material3 (XML) -->
+    <style name="Theme.ComposeFirebaseGrades" parent="Theme.Material3.DayNight">
+        <!-- Quitar ActionBar; requiere appcompat -->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Opcional: edge-to-edge -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
